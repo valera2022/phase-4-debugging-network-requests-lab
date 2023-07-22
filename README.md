@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Byebug is coming through, params data is in there and create is in config/routes.rb.but there is asyntax error since Toys is not a model. I changed it to Toy
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: the server console said id was not permit so I added it to the strong params.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: destroy route was not in config/routes.rb so I added it . 
